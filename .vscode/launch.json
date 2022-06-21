@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-msedge",
+            "name": "http://keep.google.com.",
+            "request": "launch",
+            "url": "http://keep.google.com."
+        }
+    ]
+}
