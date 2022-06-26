@@ -108,13 +108,12 @@
 
 //Usando documentação :Nesse codigo podemos ver que o codigo ficou muito mais enxuto, 
 //com 7 linhas de codigo foi feito o mesmo que foi feito com cerca de 90 linhas de codigo.
-// 
-const h1 = document.querySelector('.container h1');
-const data = new Date();
-const opcoes = {
+
+
+let data = new Date()
+let texto = document.querySelector('.container h1');
+let opcoes = {
     dateStyle: 'full',
     timeStyle: 'short'
 };
-
-h1.innerHTML = data.toLocaleDateString('pt-BR',
-    opcoes);
+texto.innerHTML = data.toLocaleString('pt-BR', opcoes);
