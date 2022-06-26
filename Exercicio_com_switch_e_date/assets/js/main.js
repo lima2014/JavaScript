@@ -106,7 +106,9 @@
 // //Data no HTML
 // h1.innerHTML = criaData(data);
 
-//Usando documentação 
+//Usando documentação :Nesse codigo podemos ver que o codigo ficou muito mais enxuto, 
+//com 7 linhas de codigo foi feito o mesmo que foi feito com cerca de 90 linhas de codigo.
+// 
 const h1 = document.querySelector('.container h1');
 const data = new Date();
 const opcoes = {
