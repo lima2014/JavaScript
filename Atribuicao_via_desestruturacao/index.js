@@ -10,6 +10,6 @@ const numero = [
 
 //---------------------------------------------------------//
 
-//Atribuição por desestruturação
+//Atribuição por desestruturação com ARRAY
 const [lista1, lista2, lista3] = numero;
 console.log(lista2[2]);
