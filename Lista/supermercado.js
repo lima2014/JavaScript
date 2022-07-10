@@ -33,7 +33,7 @@ document.querySelector('input[type=submit]')
 
 
         let elementoSoma = document.querySelector('.soma-produto h1');
-        elementoSoma.innerHTML = 'R$' + soma;
+        elementoSoma.innerHTML = 'Valor Total -------------->R$' + soma;
 
 
     });
